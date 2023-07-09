@@ -1,0 +1,43 @@
+employee=[
+    {
+        "Name": "RAM",
+        "DOB": "1990-01-01",
+        "Height": 180,
+        "City": "vizag",
+        "State": "Andhra pradesh"
+    },
+    {
+        "Name": "AMAR",
+        "DOB": "1985-05-12",
+        "Height": 165,
+        "City": "HYDERABAD",
+        "State": "TELANGANA"
+    },
+    {
+        "Name": "BALU",
+        "DOB": "1993-09-21",
+        "Height": 175,
+        "City": "CHENNAI",
+        "State": "TAMIL NADU"
+    },
+    {
+        "Name": "MANI",
+        "DOB": "1988-03-15",
+        "Height": 160,
+        "City": "MUMBAI",
+        "State": "MAHARASHTRA"
+    },
+    {
+        "Name": "DEEPAK",
+        "DOB": "1992-07-08",
+        "Height": 170,
+        "City": "BANGLORE",
+        "State": "KARNATAKA"
+    }
+]
+
+import json
+
+json_employee=json.dumps(employee)
+print(json_employee)
+print(type(json_employee))
